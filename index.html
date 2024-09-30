@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wildlife Blog</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Wildlife Blog Logo" />
+      <h1>Wildlife Wonders</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#blog">Blog Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h2>Discover the Wonders of Wildlife</h2>
+      <p>Join us on a journey to explore the beauty and diversity of wildlife.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="images/author-photo.jpg" alt="Author Photo" />
+        <p>
+          Hello! I'm a wildlife enthusiast and photographer. I created this blog to
+          share my adventures, knowledge, and passion for wildlife conservation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="blog" class="blog-posts">
+      <h2>Blog Posts</h2>
+      <div id="post-list">
+        <!-- First Set of Posts -->
+        <article class="post">
+          <h3>The Majestic Elephants</h3>
+          <p>Discover the intelligence and social dynamics of elephants...</p>
+          <p class="date">Published on: Sep 20, 2024</p>
+          <a href="posts/post1.html">Read More</a>
+        </article>
+
+        <article class="post">
+          <h3>The Hidden World of Insects</h3>
+          <p>Explore the incredible diversity of insects that often go unnoticed...</p>
+          <p class="date">Published on: Oct 1, 2024</p>
+          <a href="posts/post2.html">Read More</a>
+        </article>
+      </div>
+
+      <!-- Load More Button -->
+      <button id="load-more" class="load-more">Load More</button>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Wildlife Wonders. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
